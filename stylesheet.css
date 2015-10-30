@@ -1,40 +1,61 @@
-html, body, div, h1 {
-  padding: 0px;
-  margin: 0px;
-}
-
+/* CSS Mobile First*/
 body {
-  background-color: #7F7191
+  background-color: #002525;
 }
 
 h1 {
   color: white;
   text-align: center;
-  font-size: 50px;
-  font-family: monospace;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 #header {
-  background-color: #81DBF4;
-  height: 80px;
+  background-color: #006633;
+  padding-top: 10px;
+  padding-bottom:10px;
   position: relative;
+
 }
 
 #menu {
+  font-size: 20px;
+  border: 1px black solid;
+  border-radius: 10px;
+  background-color: #CC3333;
+  text-align:center;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-left: auto;
   margin-right: auto;
-  width: 28em;
-  color: white;
+  margin-top: 10px
+
+}
+
+#menu a {
   font-family: sans-serif;
+  color: white
 }
 
 #content {
-  height: 100%;
-  width: 80%;
-  position: relative: center;
-  background-color: #B780AB;
-  padding: 10px;
-  margin: 0 auto;
   color: white;
-  font-family: sans-serif;
+
+  margin: 0px;
+  width: 100%;
+
 }
+
+.footer {
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 100%;
+  border: 1px blue solid;
+  border-radius: 20px;
+  background-color: #3366CC;
+
+}
+/*CSS screen > 450px*/
+@media only  and (min-width: 450px){}
+
+*/
